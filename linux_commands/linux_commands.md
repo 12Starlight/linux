@@ -18,3 +18,16 @@
 <kbd>date</kbd> ~ Gives the current date and time in full
 
 <kbd>clear</kbd> ~ Cleans up the terminal workspace (`ctr + l`)
+
+&nbsp;
+
+Up ~ Cycles through commands previously written
+
+<kbd>history</kbd> ~ Shows all the previous commands
+
+<kbd>![line_num]</kbd> ~ Runs that particular command again
+
+<kbd>!!</kbd> ~ Runs the most recent command ran
+
+<kbd>history -c; history -w;</kbd> ~ Clears the history by writing the changes and
+making them permanent 
