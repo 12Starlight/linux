@@ -31,3 +31,15 @@ Up ~ Cycles through commands previously written
 
 <kbd>history -c; history -w;</kbd> ~ Clears the history by writing the changes and
 making them permanent 
+
+&nbsp;
+
+# **command_name options inputs**
+
+command_name ~ Program Name
+
+<kbd>echo `$`PATH</kbd> ~ Lets you see the Shell path
+
+Shell Path ~ List of folders that contain these programs
+
+<kbd>which [command_name]</kbd> ~ Tells which directory the command_name is stored in
