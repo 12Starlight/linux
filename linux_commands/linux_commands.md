@@ -52,3 +52,15 @@ operate on the input
 Options are presided by <kbd>-a</kbd>, <kbd>-b</kbd>, <kbd>-c</kbd>, <kbd>-d</kbd>
 <kbd>-e</kbd>, <kbd>-f</kbd>, <kbd>-g</kbd> or you can chain the commands together
 <kbd>-abcdefg</kbd>
+
+Long form options are presided by <kbd>--two_dashes</kbd> and can not be chained. 
+So, in long form it would be <kbd>--opt_1</kbd>, <kbd>--opt_2</kbd>, <kbd>--opt_3</kbd>
+
+command_name and options are capital sensitive and need to be spelled exactly 
+
+Sometimes options have their own inputs
+
+
+&nbsp;
+
+### **Going to be re-written shortly**
