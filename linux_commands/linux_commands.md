@@ -43,3 +43,12 @@ command_name ~ Program Name
 Shell Path ~ List of folders that contain these programs
 
 <kbd>which [command_name]</kbd> ~ Tells which directory the command_name is stored in
+
+&nbsp;
+
+Some command_name's do require an input also known as an operand bc some commands
+operate on the input
+
+Options are presided by <kbd>-a</kbd>, <kbd>-b</kbd>, <kbd>-c</kbd>, <kbd>-d</kbd>
+<kbd>-e</kbd>, <kbd>-f</kbd>, <kbd>-g</kbd> or you can chain the commands together
+<kbd>-abcdefg</kbd>
