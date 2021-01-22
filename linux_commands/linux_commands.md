@@ -64,7 +64,7 @@ Sometimes options have their own inputs
 
 <kbd>man [page] [command_name]</kbd> ~ Manual page for that command_name
 
-<kbd>help</kbd>help ~ Manual pages for built in Shell commands
+<kbd>help</kbd> ~ Manual pages for built in Shell commands
 
 <kbd>></kbd> ~ Write into a file by first truncating the contents of the previous content
 
@@ -74,7 +74,7 @@ Sometimes options have their own inputs
 
 The Shell processes redirections before pipes, so having a redirection before a pipe will break a pipeline
 
-<kbd>tee</kbd>tee ~ Allows the data stream to flow down 
+<kbd>tee</kbd> ~ Allows the data stream to flow down 
 
 <kbd>xargs</kbd> ~ For commands that do not accept STDIN, changes STDIN to an argument that can be used with that command
 
