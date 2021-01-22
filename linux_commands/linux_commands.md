@@ -60,6 +60,15 @@ command_name and options are capital sensitive and need to be spelled exactly
 
 Sometimes options have their own inputs
 
+<kbd>man -k [command_name]</kbd> ~ Manual pages for that command_name
+<kbd>man [page] [command_name]</kbd> ~ Manual page for that command_name
+
+<kbd>help</kbd>help ~ Manual pages for built in Shell commands
+
+
+
+
+
 
 &nbsp;
 
