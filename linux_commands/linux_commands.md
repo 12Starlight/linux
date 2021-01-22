@@ -65,6 +65,10 @@ Sometimes options have their own inputs
 
 <kbd>help</kbd>help ~ Manual pages for built in Shell commands
 
+<kbd>></kbd> ~ Write into a file by first truncating the contents of the previous content
+
+<kbd>>></kbd> ~ Write into a file by appending to the previous data in that file
+
 
 
 
