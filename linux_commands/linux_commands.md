@@ -69,7 +69,15 @@ Sometimes options have their own inputs
 
 <kbd>>></kbd> ~ Write into a file by appending to the previous data in that file
 
+<kbd>|</kbd> ~ Piping takes the output from one command and uses it as the input in another command
 
+The Shell processes redirections before pipes, so having a redirection before a pipe will break a pipeline
+
+<kbd>tee</kbd>tee ~ Allows the data stream to flow down 
+
+<kbd>xargs</kbd> ~ For commands that do not accept STDIN, changes STDIN to an argument that can be used with that command
+
+Commands that use xargs can still have their own arguments
 
 
 
