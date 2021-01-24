@@ -34,4 +34,18 @@ Because redirection is processed by the shell before piping is, snapshot.txt wou
 but this locks up the standard output stream and therefore no data can be passed through the
 pipeline to `command_two`. 
 
-*<bold>`NB:`</bold> Redirection breaks pipelines*
+*`NB:` Redirection breaks pipelines*
+
+&nbsp;
+
+However, the <kbd>tee</kbd> command allows us to take a 'snapshot' of the data in the pipeline
+**without** breaking the pipeline.
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>command_one</kbd> `-options` <mark>arguments</mark> | tee snapshot.txt | <kbd>command_two</kbd> `-options` <mark>arguments</mark>
+
+&nbsp;
+
+Here, a snapshot of the data coming out of `command_one` is saved in snapshot.txt, but the data is 
+also successfully piped through to `command-two`.
+
+&nbsp;
