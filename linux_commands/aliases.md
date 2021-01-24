@@ -30,3 +30,46 @@ is as if we ran the <kbd>cal</kbd> `-A` 1 `-B` 1 12 2021 command.
 cal_magic is now said to be an `alias` of '<kbd>cal</kbd> `-A` 1 `-B` 1 12 2021'.
 
 *`NB:` Aliases may contain either one command or an entire pipeline!*
+
+&nbsp;
+
+## **Piping to an alias**
+
+&nbsp;
+
+If the `first` command in an alias accepts standard input, then the alias can be piped to;
+even if it is an entire pipeline!
+
+Our alias is currently:
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>alias</kbd> `cal_magic`='<kbd>cal</kbd> `-A` 1 `-B` 1 12 2021'
+
+&nbsp;
+
+<kbd>cal</kbd> is the first command in this alias, but cal does not accept standard input.
+
+Therefore, this would **not** work:
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>command_one</kbd> `-options` arguments | cal_magic
+
+&nbsp;
+
+However, if we adjust our alias so that it *can* accept standard input.
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>alias</kbd> `cal_magic`='<kbd>xargs</kbd> <kbd>cal</kbd> `-A` 1 `-B` 1 12 2021'
+
+&nbsp;
+
+This will now work:
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>command_one</kbd> `-options` <mark>arguements</mark> | cal_magic
+
+&nbsp;
+
+And yes, you can pipe out of an alias as well, if the alias produces standard output.
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>command_one</kbd> `-options` <mark>arguments</mark> | cal_magic | <kbd>command_two</kbd> `-options` <kbd>arguments</kbd>
+
+&nbsp;
+
+Think of aliases as building blocks that you can use in more sophisticated pipelines.
