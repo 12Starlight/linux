@@ -30,6 +30,8 @@ for viewing the contents of 1 file.
 
 ## **Command History**
 
+&nbsp;
+
 Up ~ Cycles through commands previously written
 
 <kbd>history</kbd> ~ Shows all the previous commands
