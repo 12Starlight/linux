@@ -8,13 +8,11 @@
 
   * An instruction typed in the terminal and submitted to the shell for interpretation.
 
-&nbsp;
 
 #### **Shell**
 
   * A program that interprets commands for meaning.
 
-&nbsp;
 
 #### **Terminal**
 
@@ -26,7 +24,7 @@
 
 Each command follows the same overarching structure:
 
-  <kbd>command_name</kbd> `-options` <mark>arguments</mark>
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>command_name</kbd> `-options` <mark>arguments</mark>
 
 &nbsp;
 
@@ -35,7 +33,7 @@ Each command follows the same overarching structure:
 <kbd>command_name</kbd> must be a valid program on the Shell's Path. To check this,
 use the which command like so:
 
-  <kbd>which</kbd> `command_name`
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>which</kbd> `command_name`
 
 If a path is returned, then the <kbd>command_name</kbd> is valid and vise versa.
 
@@ -56,13 +54,13 @@ for the specifics of each command's behaviour.
 Short-form options are where a letter defines an option. Each option is prepended by
 a dash "-" like so:
 
-  <kbd>command_name</kbd> `-a -b -c` <mark>args</mark>
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>command_name</kbd> `-a -b -c` <mark>args</mark>
 
 &nbsp;
 
 To save typing, you could join together the options:
 
-  <kbd>command_name</kbd> `-abc` <mark>args</mark>
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>command_name</kbd> `-abc` <mark>args</mark>
 
 &nbsp;
 
@@ -82,13 +80,13 @@ manual page for more information.
 
 If long form options are defined for options 'a', 'b', 'c', then:
 
-  <kbd>command_name</kbd> `-a -b -c` <mark>arguments</mark>
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>command_name</kbd> `-a -b -c` <mark>arguments</mark>
 
 &nbsp;
 
 is eqivalent to
 
-  <kbd>command_name</kbd> `--alpha --beta --charlie` <mark>arguments</mark>
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>command_name</kbd> `--alpha --beta --charlie` <mark>arguments</mark>
 
 &nbsp;
 
@@ -100,7 +98,7 @@ Some commands can take an unlimited amount of inputs, some take a specific amoun
 some take none at all. Consult the manual page for the specific command for more 
 information.
 
-  <kbd>cal</kbd> <mark>12</mark> <mark>2017</mark>
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>cal</kbd> <mark>12</mark> <mark>2017</mark>
 
 &nbsp;
 
@@ -113,7 +111,7 @@ Here the <kbd>cal</kbd> command has <mark>2_command_line_arguments</mark>. The n
 
 Sometimes, command options can also take their own arguments (inputs).
 
-  <kbd>cal</kbd> `-A` <mark>1</mark> `-B` <mark>1</mark> <mark>12</mark> <mark>2017</mark>
+&nbsp;&nbsp;&nbsp;&nbsp;  <kbd>cal</kbd> `-A` <mark>1</mark> `-B` <mark>1</mark> <mark>12</mark> <mark>2017</mark>
 
 &nbsp;
 
