@@ -35,6 +35,8 @@ use the which command like so:
 
 &nbsp;&nbsp;&nbsp;&nbsp;  <kbd>which</kbd> `command_name`
 
+&nbsp;
+
 If a path is returned, then the <kbd>command_name</kbd> is valid and vise versa.
 
 &nbsp;
