@@ -1,5 +1,9 @@
 # **Linux Commands**
 
+## **Opening and Closing the Terminal**
+
+&nbsp;
+
 <kbd>ctr + opt + t</kbd> ~ Opens Linux terminal
 
 <kbd>ctr + opt + d</kbd> ~ Closes Linux terminal
@@ -8,14 +12,29 @@
 
 &nbsp;
 
+## **Basic Commands**
+
+&nbsp;
+
 <kbd>echo</kbd> ~ Echos as output what is typed as input in the terminal
+
+<kbd>date</kbd> ~ Gives the current date and time in full
 
 <kbd>cal</kbd> ~ Gives a calendar of the current month and day (customizable).
 *So you can give <kbd>cal</kbd> input and you can give it options*
 
+<kbd>cat</kbd> ~ Stck files together and write joined file to standard output. Good
+for viewing the contents of 1 file.
+
 &nbsp;
 
-<kbd>date</kbd> ~ Gives the current date and time in full
+
+
+
+
+&nbsp;
+
+
 
 <kbd>clear</kbd> ~ Cleans up the terminal workspace (`ctr + l`)
 
