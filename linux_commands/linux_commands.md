@@ -28,17 +28,7 @@ for viewing the contents of 1 file.
 
 &nbsp;
 
-
-
-
-
-&nbsp;
-
-
-
-<kbd>clear</kbd> ~ Cleans up the terminal workspace (`ctr + l`)
-
-&nbsp;
+## **Command History**
 
 Up ~ Cycles through commands previously written
 
@@ -50,6 +40,18 @@ Up ~ Cycles through commands previously written
 
 <kbd>history -c; history -w;</kbd> ~ Clears the history by writing the changes and
 making them permanent 
+
+<kbd>clear</kbd> ~ Cleans up the terminal workspace (`ctr + l`)
+
+&nbsp;
+
+
+
+
+
+&nbsp;
+
+
 
 &nbsp;
 
