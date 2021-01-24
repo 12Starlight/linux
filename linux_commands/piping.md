@@ -49,3 +49,25 @@ Here, a snapshot of the data coming out of `command_one` is saved in snapshot.tx
 also successfully piped through to `command-two`.
 
 &nbsp;
+
+## **Piping to commands that only accept command line arguments by using xargs**
+
+&nbsp;
+
+Piping connects the `standard output` of one command to the `standard input` of another command.
+
+But what if the second commande doesn't accept standard input? e.g. the <kbd>echo</kbd> command.
+
+The key is to transform the data comming in, into command line arguments.
+
+This is possible using the `xargs` command.
+
+For example, this would **not** work:
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>command_one</kbd> `-options` <mark>arguments</mark> | echo
+
+&nbsp;
+
+This **would** work:
+
+&nbsp;&nbsp;&nbsp;&nbsp; <kbd>command_one</kbd> `-options` <mark>arguments</mark> | <kbd>xargs</kbd> echo
