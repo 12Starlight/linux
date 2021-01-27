@@ -4,7 +4,7 @@
 
 | **Directory** | **Purpose**                                                               |
 |--------|-----------------------------------------------------------------------------------|
-| /      | left-aligned | The Very Top (Root) of The File Tree. Holds Everything else.       |
+| /      | The Very Top (Root) of The File Tree. Holds Everything else.       |
 | /bin   | Stores Common Linux user command `bin`aries. e.g date, cat cal commands are here. |
 | /boot  | Bootable linux Kernal an bootloader config files
 | /dev   | Files representing `dev`ices. tty=terminal, fd=floppydisk, (sd or hd)=harddisks, ram=RAM, cd=CD-ROM |
