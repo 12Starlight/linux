@@ -12,3 +12,12 @@
 | /home  | Where the home directories for regular users are stored. For example, mine is at /home/dave |
 | /media | Unlike /dev, /media is usually where removable media (USB sticks, external hard drives etc.) are mounted. |
 | /lib   | Contains `lib`raries needed by applications in /bin and /sbin to boot the system. |
+| /mnt   | A place to mount external devices. This can still be used but has been superseded by /media |
+| /misc  | A directory used to sometimes automount filesystems on request. |
+| /opt   | Directory Structure used to store additional (i.e. `opt`ional) software |
+| /proc  | Information about System Resources |
+| /root  | The home folder for the root user aka the superuser (similar to the administrator on Windows) |
+| /sbin  | Contains administrative commands (`bin`aries) for the root (`s`uper) user. |
+| /tmp   | Contains `temp`orary files used by running applications. |
+| /usr   | Contains files pertaining to users that in theory do not change after installation. |
+| /var   | Contains directories of `var`iable data that could be used by various applications. System log files are usually found here. | 
