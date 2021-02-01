@@ -99,4 +99,7 @@ Some common options when working with the `grep` command include:
 &nbsp;
 
 | Command | Description |
-|:--------|:------------|
+|:----------|:------------|
+| `grep -l` | Search in a case insensitive manner (upper case and lower case do not matter). | 
+| `grep -v` | Invert the search. i.e. return all lines that DO NOT contain a certain search term. | 
+| `grep -c` | Return the number of lines (count) that match a search term rather than the lines themselves. | 
