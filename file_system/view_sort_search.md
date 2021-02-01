@@ -71,3 +71,10 @@ As and example:
 &nbsp; &nbsp; &nbsp; &nbsp; `sort -k 5nr`
 
 The `KEYDEF` is `5nr`. This will sort using column `5` of the data, and sort numerically (`-n option`) but in reverse (`-r option`).
+
+&nbsp;
+
+# **Searching File Contents**
+
+The ability to search for and filter out what you want from a file or standard output makes working
+with the command line a much more efficient process. 
