@@ -78,3 +78,25 @@ The `KEYDEF` is `5nr`. This will sort using column `5` of the data, and sort num
 
 The ability to search for and filter out what you want from a file or standard output makes working
 with the command line a much more efficient process. 
+
+The command for this is called the `grep` command. 
+
+The `grep` command will return all lines that match the particular piece of text (or regular expression) provided as a search term.
+
+For example:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `grep` hello myfile.txt 
+
+Will return all lines containing the word "hello" in myfile.txt
+
+and
+
+&nbsp; &nbsp; &nbsp; &nbsp; `ls` /etc | `grep` *.conf
+
+will return all lines with anything ending in ".conf" in data piped from the `ls` command.
+Some common options when working with the `grep` command include:
+
+&nbsp;
+
+| Command | Description |
+|:--------|:------------|
