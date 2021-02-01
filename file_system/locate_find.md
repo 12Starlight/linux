@@ -20,7 +20,7 @@ one cannot access administrator privileges.
 
 &nbsp;
 
-| Command | Description                                                                |
+| Command             | Description                                                                |
 |:--------------------|:---------------------------------------------------------------------------|
 | `Locate -S` | Print information about the databse file. |
 | `sudo updatedb`| Update the database. As the `updatedb` command is an administrator command, the `sudo` command is used to run `updatedb` as the `root` user (the administrator). |
