@@ -105,3 +105,15 @@ You can learn more about compression algorithms [here](https://www.rootusers.com
 
 When compressing with `gzip`, the file extension `.gz` is automatically added to the `.tar` archive. Therefore, the `gzip` compressed tar archive would, by convention, have the file extensions `.tar .gz`
 
+&nbsp;
+
+#### **2.2 Compressing and Decompressing with `bzip2`**
+
+| Type | Command |
+|:-----|:--------|
+| **`Compressing with bzip2`** | bzip2 <name_of_tarball> |
+| **`Decompressing with bzip2`** | bunzip2 <name_of_tarball> |
+
+&nbsp;
+
+When compressing with `bzip2`, the file extension `.bz2` is automatically added to the `.tar` archive. Therefore, the `bzip2` compressed tar archive would, by convention, have the file extensions `.tar .bz2`
