@@ -36,3 +36,38 @@ Here are some other ways to view file contents:
 | `head -n 15 <path/to/file>`  | Read the first 15 lines from a file (10 by default if -n option not provided.)  |
 | `tail -n 15 <path/to/file>`  | Read the bottom 15 lines from a file (10 by default if -n options not provided). |
 
+&nbsp;
+
+# **Sorting Data**
+
+A useful ability when working with file data is to be able to sort it either alphabetically or
+numerically. This behavior is handled using the `sort` command.
+
+By default, the sort command sorts `smallest first`. So if sorting alphabetically, it will be
+default sort from from a - z. If sorting numerically, it will put the smallest numbers first,
+and the largest last.
+
+Here are some common options when using the sort command:
+
+&nbsp;
+
+| Command | Description |
+|:----------|:------------|
+| `sort -r` | Reverse the default sorting order. |
+| `sort -n` | Sort in a numerical manner. |
+| `sort -u` | Sort data and only return unique entries. |
+
+&nbsp;
+
+It is also possible to sort tabular data using the `sort` command using one of the columns. This
+is posiible by providing a `KEYDEF` as an argument to the `-k` option.
+
+&nbsp; &nbsp; &nbsp; &nbsp; `sort -k <KEYDEF>`
+
+KEYDEFS are made using a column number and then additional options can be added (without dashes).
+
+As and example:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `sort -k 5nr`
+
+The `KEYDEF` is `5nr`. This will sort using column `5` of the data, and sort numerically (`-n option`) but in reverse (`-r option`).
