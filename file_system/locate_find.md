@@ -31,7 +31,30 @@ one cannot access administrator privileges.
 
 # **The Find Command**
 
+The `find` command can be used for more `sophisticated search tasks` than the `locate` command. This is made possible due to the many powerful options that the `find` command has.
 
+The first thing to not is that the `find` command will list both files *and* directories, below the
+point the file tree that it is told to start at.
+
+For example:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `find .`
+
+will list all files and directories below the current working directory (which is denoted by the `.`).
+
+&nbsp; &nbsp; &nbsp; &nbsp; `find /`
+
+will list all files and directories below the base directory (`/`); thereby listing everything on the entire file system!
+
+By default, the `find` command will list everything on the file system below its starting point, to an `infinite depth`.
+
+The search depth can however be limited using the `-maxdepth` option.
+
+For example:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `find / -maxdepth 4`
+
+will list everything on the file system below the base directory, provided that it is within `4` levels of the base directory.
 
 
 &nbsp;
