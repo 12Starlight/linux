@@ -80,3 +80,8 @@ For this you would again use the `tar` command.
 
 Extracting a tarball does **not** empty the tarball. You can extract from a tarball as many times as you want without affecting the tarball's contents.
 
+&nbsp;
+
+## **2. Compressing Tarballs**
+
+Tarballs are just containers for files. They do not by themselves do any compression, but can be compressed using a variety of compression algorithms.
