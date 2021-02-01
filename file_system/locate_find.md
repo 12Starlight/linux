@@ -20,12 +20,12 @@ one cannot access administrator privileges.
 
 &nbsp;
 
-| Command             | Description                                                                |
+| Command             | Description                                                               |
 |:--------------------|:---------------------------------------------------------------------------|
-| `Locate -S` | Print information about the databse file. |
-| `sudo updatedb`| Update the database. As the `updatedb` command is an administrator command, the `sudo` command is used to run `updatedb` as the `root` user (the administrator). |
+| `Locate -S`         | Print information about the databse file. |
+| `sudo updatedb`     | Update the database. As the `updatedb` command is an administrator command, the `sudo` command is used to run `updatedb` as the `root` user (the administrator). |
 | `Locate --existing` | Check whether a result actually exists before returning it. |
-| `locate -limit 5` | Limit the output to only show 5 results. |
+| `locate -limit 5`   | Limit the output to only show 5 results. |
 
 &nbsp;
 
