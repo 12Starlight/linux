@@ -22,7 +22,7 @@ home directory.
 
 ## **Key Commands for Navigating the File System**
 
-|           |                                                                            |
+| Command   | Description                                                                |
 |:----------|:---------------------------------------------------------------------------|
 | **`pwd`** | Print on standard output the absolute path to the shell's current working directory. |
 | **`cd[<new_location>]`** | Change the shell's current working directory to the optional `<new_location>`. If no location is provided, return to the user's home directory. |
@@ -32,7 +32,7 @@ home directory.
 
 ## **Key Shortcuts when Navigating File System.**
 
-|           |                                                                            |
+| Command   | Description                                                                |
 |:----------|:---------------------------------------------------------------------------|
 | **`~`**   | The current user's home directory. |
 | **`.`**   | The current folder. |
