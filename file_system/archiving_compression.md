@@ -85,3 +85,12 @@ Extracting a tarball does **not** empty the tarball. You can extract from a tarb
 ## **2. Compressing Tarballs**
 
 Tarballs are just containers for files. They do not by themselves do any compression, but can be compressed using a variety of compression algorithms.
+
+The main types of compression algorithms are `gzip` and `bzip2`.
+
+The `gzip` compression algorithm tends to be faster than `bzip2` but, as a trade-off, `gzip` usually offers less compression.
+
+You can learn more about compression algorithms [here](https://www.rootusers.com/gzip-vs-bzip2-vs-xz-performance-comparison/)
+
+&nbsp;
+
