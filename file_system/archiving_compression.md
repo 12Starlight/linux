@@ -38,7 +38,7 @@ Tarballs are created using the `tar` command.
 | `-c` : "create" | This allows us to create a tarball. (required) |
 | `-v` : "verbose" | This makes tar give us feedback on its progress. (optional) |
 | `-f` | Tells tar that the next argument is the name of the tarball. (required) |
-| `<name_of_tarball>` | The absolute or relative file path to where you want the tarball to be placed; e.g. ~/Desktop/myarchive.tar. It is recommended that you add .tar to your proposed filename for clarity. |
+| `<name_of_tarball>` | The absolute or relative file path to where you want the tarball to be placed; e.g. ~/Desktop/myarchive.tar. It is recommended that you add `.tar` to your proposed filename for clarity. |
 | `<file>` | The absolute or relative file paths to files that you want to insert into the tarball. You can have as many as you want and wildcards are accepted. |
 
 &nbsp;
@@ -53,7 +53,7 @@ Once the tarball has been created, you can check what is inside it using the tar
 
 | Option | Description |
 |:-------|:------------|
-| `-t` | "test-label". This allows us to check the contents of a tarball. (required) |
+| `-t` : "test-label" | This allows us to check the contents of a tarball. (required) |
 | `-f` | Tells tar that the next argument is the name of the tarball. (required) |
 | `<name_of_tarball>` | The absolute or relative file path to where you want the tarball to be placed; e.g. ~/Desktop/myarchive.tar |
 
