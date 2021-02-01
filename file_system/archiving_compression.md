@@ -31,6 +31,8 @@ Tarballs are created using the `tar` command.
 
         tar -cvf <name_of_tarball> <file>...
 
+&nbsp;
+
 `The -c option`: "create". This allows us to create a tarball. (required)
 
 `The -v option`: "verbose". This makes tar give us feedback on its progress. (optional)
