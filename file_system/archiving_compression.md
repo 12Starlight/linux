@@ -29,7 +29,7 @@ compresses that tarball using one of a variety of `compression` algorithms.
 
 Tarballs are created using the `tar` command.
 
-    tar -cvf <name_of_tarball> <file>...
+        tar -cvf <name_of_tarball> <file>...
 
 `The -c option`: "create". This allows us to create a tarball. (required)
 
