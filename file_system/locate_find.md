@@ -18,7 +18,19 @@ database is not kept up to date.
 Below are some commands to update the database and some reassuring procedures in case
 one cannot access administrator privileges.
 
+&nbsp;
+
+| Command | Description                                                                |
+|:--------|:---------------------------------------------------------------------------|
+| `Locate -S` | Print information about the databse file. |
+| `sudo updatedb`| Update the database. As the `updatedb` command is an administrator command, the `sudo` command is used to run `updatedb` as the `root` user (the administrator). |
+| `Locate --existing` | Check whether a result actually exists before returning it. |
+| `locate -limit 5` | Limit the output to only show 5 results. |
 
 &nbsp;
 
 # **The Find Command**
+
+| Command | Description                                                                |
+|:--------|:---------------------------------------------------------------------------|
+| `Locate -S` | Print information about the databse file. |
