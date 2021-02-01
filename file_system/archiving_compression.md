@@ -22,3 +22,22 @@ compresses that tarball using one of a variety of `compression` algorithms.
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Secondly, you will then compress the tarball with one of a variety of compression algorithms; 
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; leaving you with a compressed archive.
+
+&nbsp;
+
+## **1. Creating a Tarball**
+
+Tarballs are created using the `tar` command.
+
+    tar -cvf <name_of_tarball> <file>...
+
+`The -c option`: "create". This allows us to create a tarball. (required)
+
+`The -v option`: "verbose". This makes tar give us feedback on its progress. (optional)
+
+`The -f option`: Tells tar that the next argument is the name of the tarball. (required)
+
+`<name_of_tarball>`: The absolute or relative file path to where you want the tarball to be placed;
+e.g. ~/Desktop/myarchive.tar. It is recommended that you add .tar to your proposed filename for clarity.
+
+`<file>`: The absolute or relative file paths to files that you want to insert into the tarball. You can have as many as you want and wildcards are accepted.
