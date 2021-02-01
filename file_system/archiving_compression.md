@@ -58,3 +58,25 @@ Once the tarball has been created, you can check what is inside it using the tar
 | `<name_of_tarball>` | The absolute or relative file path to where you want the tarball to be placed; e.g. ~/Desktop/myarchive.tar |
 
 &nbsp;
+
+#### **1.2 Extracting from a Tarball**
+
+Let us say that you download a tar file from the internet and you want to extract its contents using the command line. How can you do that?
+
+For this you would again use the `tar` command.
+
+        tar -xvf <name_of_tarball>
+
+&nbsp;
+
+| Option | Description |
+|:-------|:------------|
+| `-x` : "extract" | This allows us to extract a tarball's contents. (required) |
+| `-v` : "verbose" | This makes tar give us feedback on its progress. (optional) |
+| `-f` | Tells tar that the next argument is the name of the tarball. (required) |
+| `<name_of_tarball>` | The absolute or relative file path to where you want the tarball to be placed; e.g. ~/Desktop/myarchive.tar |
+
+&nbsp;
+
+Extracting a tarball does **not** empty the tarball. You can extract from a tarball as many times as you want without affecting the tarball's contents.
+
