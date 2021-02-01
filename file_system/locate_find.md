@@ -82,7 +82,7 @@ will copy every item below the `/etc` folder on the file system to the `~/Deskto
 
 Commands are executed on each item using the `-exec` option.
 
-The argument to the `-exec` option is the command you ant to execute on each item found by the find command.
+The argument to the `-exec` option is the command you want to execute on each item found by the find command.
 
 Commands should be written as they would normally, with `{}` used as a placeholder for the results of the `find` command.
 
@@ -90,7 +90,7 @@ Be sure to terminate the `-exec` option using `\;`
 
 The `-ok` option can also be used, to prompt the user for permission before each action.
 
-This can be tedious for a large number of files, but provides an extra layer of security of a small number of files; especially when doing destructive processes such as deletion.
+This can be tedious for a large number of files, but provides an extra layer of security; especially when doing destructive processes such as deletion.
 
 An example may be:
 
