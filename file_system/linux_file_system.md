@@ -28,3 +28,12 @@ home directory.
 | **`cd[<new_location>]`** | Change the shell's current working directory to the optional `<new_location>`. If no location is provided, return to the user's home directory. |
 | **`ls[<location>]`** | List out the contents of the optional `<location>` directory. If no `<location>` is provided, print out the contents of the shell's current working directory. | 
 
+&nbsp;
+
+## **Key Shortcuts when Navigating File System.**
+
+|           |                                                                            |
+|:----------|:---------------------------------------------------------------------------|
+| **`~`**   | The current user's home directory. |
+| **`.`**   | The current folder. |
+| **`..`**  | The parent directory of the current folder. |
