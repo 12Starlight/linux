@@ -43,3 +43,21 @@ Tarballs are created using the `tar` command.
 e.g. ~/Desktop/myarchive.tar. It is recommended that you add .tar to your proposed filename for clarity.
 
 `<file>`: The absolute or relative file paths to files that you want to insert into the tarball. You can have as many as you want and wildcards are accepted.
+
+&nbsp;
+
+#### **1.1 Checking a Tarball's Contents**
+
+Once the tarball has been created, you can check what is inside it using the tar command.
+
+        tar -tf <name_of_tarball>
+
+&nbsp;
+
+`The -t option`: "test-label". This allows us to check the contents of a tarball. (required)
+
+`The -f option`: Tells tar that the next argument is the name of the tarball. (required)
+
+`<name_of_tarball>`: The absolute or relative file path to where you want the tarball to be placed; e.g. ~/Desktop/myarchive.tar 
+
+&nbsp;
