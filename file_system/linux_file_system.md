@@ -13,3 +13,7 @@ Paths that start from the `current working directory` of the shell, are know as
 For example both of these examples refer to a file called 'file1.txt' in the Documents 
 folder fo ra user called Sarah. The relative path assumes the shell is in Sarah's 
 home directory.
+
+`Absolute`: /home/sarah/Documents/file1.txt
+
+`Relative`: Documents/file1.txt
