@@ -25,3 +25,14 @@ Or more simply:
 By pressing the `q key`, the `less` command can be terminated and control regained over the 
 shell.
 
+Here are some other ways to view file contents:
+
+&nbsp;
+
+| Command              | Description |
+|:---------------------|:------------|
+| `tac <path/to/file>`  | Print a file's contents to standard output, reversed vertically. |
+| `rev <path/to/file>`  | Print a file's content to standard output, reversed horizontally (along rows). |
+| `head -n 15 <path/to/file>`  | Read the first 15 lines from a file (10 by default if -n option not provided.)  |
+| `tail -n 15 <path/to/file>`  | Read the bottom 15 lines from a file (10 by default if -n options not provided). |
+
