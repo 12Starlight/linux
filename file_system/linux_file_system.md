@@ -17,3 +17,14 @@ home directory.
 `Absolute`: /home/sarah/Documents/file1.txt
 
 `Relative`: Documents/file1.txt
+
+&nbsp;
+
+## **Key Commands for Navigating the File System**
+
+|           |                                                                            |
+|:----------|:---------------------------------------------------------------------------|
+| **`pwd`** | Print on standard output the absolute path to the shell's current working directory. |
+| **`cd[<new_location>]`** | Change the shell's current working directory to the optional `<new_location>`. If no location is provided, return to the user's home directory. |
+| **`ls[<location>]`** | List out the contents of the optional `<location>` directory. If no `<location>` is provided, print out the contents of the shell's current working directory. | 
+
