@@ -61,4 +61,19 @@ will list everything on the file system below the base directory, provided that 
 
 | Command | Description                                                                |
 |:--------|:---------------------------------------------------------------------------|
-| `Locate -S` | Print information about the databse file. |
+| `-type` | Only list items of a certain `type`. `-type f` restricts the search to file and `-type d` restricts the search to directories. |
+| `-name "*.txt"` | Search for items matching a certain `name`. This name may contain a regular expression and `should be enclosed in double quotes` as shown. In this example, the find command will return all items with names ending in .txt |
+| `-iname` | Same as -name but uppercase and lowercase do not matter. |
+| `-size` | Find files based on their size. e.g. `-size +100k` finds files over 100 KiB in size `-size -5M` finds files less than 5MiB in size. Other units include G for GiB and c for bytes. |
+
+&nbsp;
+
+**`Note`: 1 Kibibyte (KiB) = 1024 bytes. 1 Mebibyte (MiB) = 1024 KiB. 1 Gibibyte = 1024 MiB.**
+
+&nbsp;
+
+A useful feature of the `find` command is the ability to `execute` another command on each of the results.
+
+For example:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `find` /etc `-exec` cp `{}` ~/Desktop `\;`
