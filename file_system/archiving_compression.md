@@ -94,3 +94,14 @@ You can learn more about compression algorithms [here](https://www.rootusers.com
 
 &nbsp;
 
+#### **2.1 Compressing and Decompressing with `gzip`**
+
+| Type | Command |
+|:-----|:--------|
+| **`Compressing with gzip`** | gzip <name_of_tarball> |
+| **`Decompressing with gzip`** | gunzip <name_of_tarball> |
+
+&nbsp;
+
+When compressing with `gzip`, the file extension `.gz` is automatically added to the `.tar` archive. Therefore, the `gzip` compressed tar archive would, by convention, have the file extensions `.tar .gz`
+
