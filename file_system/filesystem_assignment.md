@@ -1,5 +1,6 @@
 # **File System Assignment**
 
+**1)**
 In this task you are asked to create a folder called `super_secret_stuff` and inside that folder to
 place a file called <kbd>top_secret.txt</kbd>
 
@@ -35,3 +36,34 @@ database.**
 > locate top_secret.txt
 >
 > locate top_secret.txt > ~/secret_place.txt 
+
+
+&nbsp;
+
+**2)**
+
+`Part A`:
+
+
+In this task, you are going to create an advanced pipeline that will create a sorted list of
+the various file sizes on your system.
+
+Firstly, use the `find` command to search your entire file tree; starting from the `/`
+directory, for all files that are over 1 MebiByte in size. Use the `maxdepth` option to limit
+the `find` command’s search to only go 4 levels deep. The search should only show
+files, not directories.
+
+Use the `-exec` option of the `find` command to run the `ls -lh` command on each of
+those results.
+
+**Hint: You will need to put sudo at the start of this command to access all required
+folders.**
+
+> Answer:
+>
+> sudo find / -maxdepth 4 -type f -size +1M -exec ls -lh \;
+
+&nbsp;
+
+`Part B`:
+
