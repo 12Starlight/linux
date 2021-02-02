@@ -79,3 +79,7 @@ Using redirection, output this data to a file called <kbd>filesizes.txt</kbd> in
 
 **Hint 3:** You need to let the sort command to be able to deal with “human-readable”
 data.
+
+> Answer:
+>
+> sudo find / -maxdepth 4 -type f -size +1M -exec ls -lh \; | sort -k 5hr > ~/Desktop/filesizes.txt
