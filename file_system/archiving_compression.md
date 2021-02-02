@@ -148,3 +148,12 @@ To perform compression/decompression using the xzip compression algorithm in the
 |:-----|:--------|
 | **`Creating a tarball and compressing via xzip`** | `tar -cv[J]f <name_of_tarball><file>...` |
 | **`Decomposing a tarball and extracting via xzip`** | `tar -xv[J]f <name_of_tarball>` |
+
+&nbsp;
+
+## **Creating .zip files**
+
+Although `.tar .gz` and `.tar .bz2` archives are the archives of choice on Linux, `.zip` archives are common on other operating systems such as Windows and Mac OSX.
+
+In order to create such archives, use the following commands:
+
