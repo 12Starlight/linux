@@ -126,3 +126,8 @@ Bc compressing tar archives is such a common function, it is possible to create 
 
 To perform compression/decompression using gzip compression algorithm in the tar command, you provide the `z` option in addition to the other options required.
 
+| Type | Command |
+|:-----|:--------|
+| **`Creating a tarball and compressing via gzip`** | `tar -cv[z]f <name_of_tarball><file>...` |
+| **`Decomposing a tarball and extracting via gzip`** | `tar -xv[z]f <name_of_tarball>` |
+
