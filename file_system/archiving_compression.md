@@ -126,6 +126,8 @@ Bc compressing tar archives is such a common function, it is possible to create 
 
 To perform compression/decompression using gzip compression algorithm in the tar command, you provide the `z` option in addition to the other options required.
 
+&nbsp;
+
 | Type | Command |
 |:-----|:--------|
 | **Creating a tarball and compressing via gzip** | `tar -cv[z]f <name_of_tarball><file>...` |
@@ -135,6 +137,8 @@ To perform compression/decompression using gzip compression algorithm in the tar
 
 To perform compression/decompression using bzip2 compression algorithm in the tar commmand, you provide the `j` option to the other options required.
 
+&nbsp;
+
 | Type | Command |
 |:-----|:--------|
 | **Creating a tarball and compressing via bzip2** | `tar -cv[j]f <name_of_tarball><file>...` |
@@ -143,6 +147,8 @@ To perform compression/decompression using bzip2 compression algorithm in the ta
 &nbsp;
 
 To perform compression/decompression using the xzip compression algorithm in the tar command, you provide the `J` option to the other options required.
+
+&nbsp;
 
 | Type | Command |
 |:-----|:--------|
@@ -157,3 +163,15 @@ Although `.tar .gz` and `.tar .bz2` archives are the archives of choice on Linux
 
 In order to create such archives, use the following commands:
 
+&nbsp;
+
+| Type | Command |
+|:-----|:--------|
+| **Creating a .zip archive** | `zip <name_of_zipfile><file>...` |
+| **Extracting a .zip archive** | `unzip <name_of_zipfile>` |
+
+&nbsp;
+
+`<name_of_zipfile>`: The absolute or relative file path to the `.zip` file e.g. ~/myarchive.zip
+
+`<file>`: The absolute or relative file paths to files that you want to insert into the `.zip` file. You can have as many as you like and wildcards are accepted.
