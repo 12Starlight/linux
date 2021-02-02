@@ -83,3 +83,9 @@ data.
 > Answer:
 >
 > sudo find / -maxdepth 4 -type f -size +1M -exec ls -lh \; | sort -k 5hr > ~/Desktop/filesizes.txt
+
+&nbsp;
+
+> Reviewed:
+>
+> sudo find / -maxdepth 4 -type f -size +1M -exec ls -lh `{}` \; | sort -k 5hr > ~/Desktop/filesizes.txt
