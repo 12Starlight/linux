@@ -65,6 +65,12 @@ folders.**
 
 &nbsp;
 
+> Reviewed:
+>
+> sudo find / -maxdepth 4 -type f -size +1M -exec ls -lh `{}` \;
+
+&nbsp;
+
 `Part B`:
 
 Sort the output from Part A using the `sort` command. You should sort the data so that
