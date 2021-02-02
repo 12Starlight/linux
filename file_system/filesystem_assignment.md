@@ -67,3 +67,15 @@ folders.**
 
 `Part B`:
 
+Sort the output from Part A using the `sort` command. You should sort the data so that
+the largest file sizes are at the top of the list and the smallest file sizes are at the bottom.
+
+Using redirection, output this data to a file called <kbd>filesizes.txt</kbd> in your home directory.
+
+**Hint 1:** You will need to use the `–k` option for the sort command and define a
+*KEYDEF*.
+
+**Hint 2:** The file sizes are the 5th column of data.
+
+**Hint 3:** You need to let the sort command to be able to deal with “human-readable”
+data.
