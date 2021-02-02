@@ -128,8 +128,8 @@ To perform compression/decompression using gzip compression algorithm in the tar
 
 | Type | Command |
 |:-----|:--------|
-| **`Creating a tarball and compressing via gzip`** | `tar -cv[z]f <name_of_tarball><file>...` |
-| **`Decomposing a tarball and extracting via gzip`** | `tar -xv[z]f <name_of_tarball>` |
+| **Creating a tarball and compressing via gzip** | `tar -cv[z]f <name_of_tarball><file>...` |
+| **Decomposing a tarball and extracting via gzip** | `tar -xv[z]f <name_of_tarball>` |
 
 &nbsp;
 
@@ -137,8 +137,8 @@ To perform compression/decompression using bzip2 compression algorithm in the ta
 
 | Type | Command |
 |:-----|:--------|
-| **`Creating a tarball and compressing via bzip2`** | `tar -cv[j]f <name_of_tarball><file>...` |
-| **`Decomposing a tarball and extracting via bzip2`** | `tar -xv[j]f <name_of_tarball>` |
+| **Creating a tarball and compressing via bzip2** | `tar -cv[j]f <name_of_tarball><file>...` |
+| **Decomposing a tarball and extracting via bzip2** | `tar -xv[j]f <name_of_tarball>` |
 
 &nbsp;
 
@@ -146,8 +146,8 @@ To perform compression/decompression using the xzip compression algorithm in the
 
 | Type | Command |
 |:-----|:--------|
-| **`Creating a tarball and compressing via xzip`** | `tar -cv[J]f <name_of_tarball><file>...` |
-| **`Decomposing a tarball and extracting via xzip`** | `tar -xv[J]f <name_of_tarball>` |
+| **Creating a tarball and compressing via xzip** | `tar -cv[J]f <name_of_tarball><file>...` |
+| **Decomposing a tarball and extracting via xzip** | `tar -xv[J]f <name_of_tarball>` |
 
 &nbsp;
 
