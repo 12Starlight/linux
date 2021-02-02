@@ -117,3 +117,12 @@ When compressing with `gzip`, the file extension `.gz` is automatically added to
 &nbsp;
 
 When compressing with `bzip2`, the file extension `.bz2` is automatically added to the `.tar` archive. Therefore, the `bzip2` compressed tar archive would, by convention, have the file extensions `.tar .bz2`
+
+&nbsp;
+
+## **Doing it all in one step**
+
+Bc compressing tar archives is such a common function, it is possible to create a tar archive and compress it all in one step using the tar command. It is also possible to decompress and extract a compressed archive in one step using the tar command too.
+
+To perform compression/decompression using gzip compression algorithm in the tar command, you provide the `z` option in addition to the other options required.
+
