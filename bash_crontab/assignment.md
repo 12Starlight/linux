@@ -16,7 +16,7 @@ Do ensure that each output is *appended* to the previous one.
 
 &nbsp;
 
-> Answer:
+> Answer: Nano Text Editor
 >
 > cd ~
 >
@@ -36,4 +36,24 @@ Do ensure that each output is *appended* to the previous one.
 >
 > ctr + x
 
+&nbsp;
 
+## **2).**
+Once you have created <kbd>hungry.sh</kbd>, you are tasked to edit your crontab and add a new row
+so that hungry.sh runs every minute. Your computer loves data, after all 😉🔥
+
+&nbsp;
+
+> Answer: Vim Text Editor
+>
+> cd ~
+>
+> contab -e
+>
+> i
+>
+> `* * * * * bash hungry.sh`
+>
+> :wq
+>
+> Select Ok
