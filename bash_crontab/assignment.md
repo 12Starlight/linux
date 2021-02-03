@@ -60,4 +60,10 @@ so that hungry.sh runs every minute. Your computer loves data, after all ðŸ˜‰ðŸ”
 
 &nbsp;
 
+> Reviewed:
+> 
+> `* * * * * bash ~/bin/hungry.sh` 
+
+&nbsp;
+
 [More info on crontab](https://crontab.guru/crontab.5.html)
