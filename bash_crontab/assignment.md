@@ -48,7 +48,7 @@ so that hungry.sh runs every minute. Your computer loves data, after all ðŸ˜‰ðŸ”
 >
 > cd ~
 >
-> contab -e
+> crontab -e
 >
 > i
 >
