@@ -19,21 +19,21 @@ Do ensure that each output is *appended* to the previous one.
 > Answer:
 >
 > cd ~
-
+>
 > mkdir /bin
-
+>
 > cd /bin
-
+>
 > nano hungry.sh
-
+>
 > #!/bin/bash
-
+>
 > echo "I am hungry. Feed me data" >> ~/Desktop/demands.txt
-
+>
 > date >> ~/Desktop/demands.log
-
+>
 > ctr + o
-
+>
 > ctr + x
 
 
