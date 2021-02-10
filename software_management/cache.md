@@ -31,3 +31,14 @@ To find more information about a specific package you can do:
 
 # **Updating the Cache**
 
+There is a configuration file called `sources.list` located in the `/etc/apt` directory that tells the package manager which package lists to download.
+
+These package lists are stored on archive.ubuntu.com
+
+An important factor for maintaining any cache is to insure that it is up to date with the original source, and `updating your systems cache` is fortunately very easy to do.
+
+Just do:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `sudo apt-get update`
+
+This will cause the apt package manager to compare your package lists in your cache to those available on archive.ubunto.com and ensure you have the most up to date versions.
