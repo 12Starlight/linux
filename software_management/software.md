@@ -18,3 +18,15 @@ Therefore, *`you must ensure that your package lists are up to date before upgra
 
 **`Note:`** This only update software installed via the package manager. It will not work for software compiled and installed manually. Therefore, *`always aim to install software from the repositories wherever possible.`*
 
+&nbsp;
+
+# **Installing Software**
+Installing software is a very easy task using the `apt` package manager.
+
+When you have found a package that you would like to install simply do:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `sudo apt-get install <package name>`
+
+This will download and install the package, as well as any dependencies that are required in order to make the package function.
+
+Again, in order to install the most up to date version of the package, *`ensure that you have updated your cache prior to installing`* by executing `sudo apt-get update`.
