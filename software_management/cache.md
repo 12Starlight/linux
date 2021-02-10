@@ -4,6 +4,8 @@ Ubuntu's package manager (`apt`) uses the `/var/lib/apt/lists` as a `cache`. A c
 
 This cache (known as the `apt-cache`) contains lists of packages available in the Ubuntu repositories.
 
+&nbsp;
+
 The `Ubuntu Repositories` are:
 
 | Name             | Description                                             |
