@@ -33,7 +33,7 @@ Again, in order to install the most up to date version of the package, *`ensure 
 
 &nbsp;
 
-# **Uninstalling Softare**
+# **Uninstalling Software**
 
 When software packages are no longer required it is possible to `remove` them from your system with a few simple commands.
 
