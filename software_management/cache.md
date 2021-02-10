@@ -17,6 +17,17 @@ The `Ubuntu Repositories` are:
 
 &nbsp;
 
+To search the `apt-cache` for packages that match a certain search term you can use:
 
+&nbsp; &nbsp; &nbsp; &nbsp; `apt-cache` search `<search term>`
+
+This will list out all the packages that match a certain search term, and also give a snippet of information about each result.
+
+To find more information about a specific package you can do:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `apt-cache` show `<package name>`
+
+&nbsp;
 
 # **Updating the Cache**
+
