@@ -12,11 +12,11 @@ To update all the software on your system to the most up-to-date versions mentio
 
 Bc this process uses the package lists in your apt-cache, in order for this to be effective, your package lists should be completely up-to-date.
 
-Therefore, *`you must ensure that your package lists are up to date before upgrading software`* by using:
+Therefore, *`you must ensure that your package lists are up to date before upgrading the software`* by using:
 
 &nbsp; &nbsp; &nbsp; &nbsp; `sudo apt-get update`
 
-**`Note:`** This only update software installed via the package manager. It will not work for software compiled and installed manually. Therefore, *`always aim to install software from the repositories wherever possible.`*
+**`Note:`** This will only update software installed via the package manager. It will not work for software compiled and installed manually. Therefore, *`always aim to install software from the repositories wherever possible.`*
 
 &nbsp;
 
