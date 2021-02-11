@@ -38,3 +38,24 @@ To download source code, simply do:
 
 # **Compiling and Installing from Source Code**
 
+With the source code downloaded, you are free to make your own edits to the code, recompile it and install it on your machine.
+
+To compile and install code written in the `C programming language`, you will need the `Gnu C Compiler (gcc)`, which you can install by running:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `sudo apt-get install gcc`
+
+With the `Gnu C Compiler` installed, the compiler must be `configured` correctly prior to compiling a package.
+
+Inside the package directory, there will be a `configure` file. From within the same directory as the configure file, simply run *`configure`*, and the Gnu C Compiler will be configured.
+
+This will generate a new file in the directory called the `MakeFile`.
+
+In order to operate on the make file, you will need to install one more package using:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `sudo apt-get install make`
+
+When that has installed, then from within the same directory as the `MakeFile`, you can execute the *`make`* command and all the software in the package will be ran through the `Gnu C Compiler` and compiled into binary code ready for installation.
+
+In order to install the compiled binary files, simply run:
+
+&nbsp; &nbsp; &nbsp; &nbsp; `sudo make install`
